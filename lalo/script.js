@@ -99,3 +99,19 @@ console.log(Math.floor(Math.random() * 10))
 let min = 100
 let max = 1000
 console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+
+//join mathods
+let myarr = ['nasme', 'erdf', 'edrfd', 'dfd']
+console.log(myarr.join())
+console.log(myarr.join(''))
+console.log(myarr.join('-'))
+console.log(myarr.join('='))
+console.log(myarr.join('!'))
+
+//object 
+const MyObj = { 1: "hello", 2: "world" }
+const MyObj2 = { 3: "hello", 4: "world" }
+
+const MyObj3 = object.assign({}, MyObj, MyObj2)
+
+console.log(MyObj3)
